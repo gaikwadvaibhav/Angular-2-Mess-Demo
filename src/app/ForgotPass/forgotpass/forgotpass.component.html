@@ -1,0 +1,40 @@
+
+ <html>   
+    <body class="cyan">    
+      <div id="login-page" class="row">
+        <div class="col s12 z-depth-4 card-panel">
+          <form class="login-form">
+            <div class="row">
+              <div class="input-field col s12 center">
+                <img src="images/login-logo.png" alt="" class="circle responsive-img valign profile-image-login">
+                <p class="center login-form-text">Enter Your Register Email </p>
+              </div>
+            </div>
+            <div class="row margin">
+              <div class="input-field col s12">
+                <i class ="material-icons prefix">email</i>    
+                <input id="username" type="text">
+                <label for="username" class="center-align">Email</label>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="input-field col s12">
+                <a href="index.html" class="btn waves-effect waves-light col s12">Send Link</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s6 m6 l6">
+                <p class="margin medium-small"><a [routerLink]= "['/login']">Login</a></p>
+              </div>
+              <div class="input-field col s6 m6 l6">
+                  <p class="margin right-align medium-small"><a [routerLink]= "['/signup']">Register</a></p>
+              </div>          
+            </div>
+            </form>
+        </div>
+      </div>
+    </body>
+    
+    </html>  
+ 
